@@ -1,28 +1,48 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Simple Business Card Flutter App
 
-# Mi Card
+## Description
 
-## Our Goal
+Based on a tutorial by [London App Brewery on Linkedin Learning](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fflutter-part-04-building-an-app-with-state%3Ftrk%3Dshare_ent_url&account=56744273)
 
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+This application is a simple business card. It's purpose is to display your Name, Picuture, Job title and contact information.
 
-## What you will create
+It was built following a tutorial to understand the fundementals of Flutter's Scaffolds, Rows and Cols.
 
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+## Demo
 
-## What you will learn
+<img src="https://github.com/eoanodea/flutter-business-card/blob/master/demo.png" alt="Finished App" width="300">
 
-* How to create Stateless Widgets
-* What is the difference between hot reload and hot refresh and running an app from cold
-* How to use Containers to lay out your UI
-* How to use Columns and Rows to position your UI elements
-* How to add custom fonts
-* How to add Material icons
-* How to style Text widgets
-* How to read and use Flutter Documentation
+## What you need to run this code
 
+### macOS
 
+1. macOS (64-bit)
+2. At least 2.8 GB Disk Space
+3. `bash`, `curl`, `git`, `mkdir`, `rm`, `unzip` & `which`
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+### Windows
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+1. Windows 7 SP1 or later (64-bit), x86-64 based
+2. At least 1.32 GB Disk Space
+3. Windows PowerShell > 5.0
+4. Git for Windows
+
+## How to run this code
+
+1. Clone this repository, and cd into it
+2. Run `flutter pub get` to install the required dependencies
+3. Make sure you have a device, simulator or emulator set up
+4. Run `flutter run`
+
+It is recommended to follow [Flutter's documentation](https://flutter.dev/docs/get-started/install) on installing and running the app
+
+## What you can run this code on
+
+This application can be compiled and launched on the following platforms:
+
+1. iOS Physical Device
+2. iPhone Simulator
+3. Android Physical Device
+4. Android Simulator
+
+Instructions for all can be found on [Flutter's Documentation](https://flutter.dev/docs/get-started/install)
