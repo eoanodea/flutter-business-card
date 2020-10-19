@@ -7,6 +7,7 @@ void main() {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -17,10 +18,11 @@ void main() {
               Text(
                 'Eoan O\'Dea',
                 style: TextStyle(
-                    fontFamily: 'SourceSansPro',
-                    fontSize: 40.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w900),
+                  color: Colors.white,
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.w900,
+                ),
               ),
               Text(
                 'FULL STACK ENGINEER',
@@ -31,8 +33,14 @@ void main() {
                   fontWeight: FontWeight.normal,
                 ),
               ),
+              SizedBox(
+                height: 50.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
+              ),
               Card(
-                color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
@@ -53,7 +61,6 @@ void main() {
                 ),
               ),
               Card(
-                color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
