@@ -4,7 +4,7 @@
 
 Based on a tutorial by [London App Brewery on Linkedin Learning](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fflutter-part-04-building-an-app-with-state%3Ftrk%3Dshare_ent_url&account=56744273)
 
-This application is a simple business card. It's purpose is to display your Name, Picuture, Job title and contact information.
+This application is a simple business card. Its purpose is to display your name, picture, job title and contact information.
 
 It was built following a tutorial to understand the fundementals of Flutter's Scaffolds, Rows and Cols.
 
